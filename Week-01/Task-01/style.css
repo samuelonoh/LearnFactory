@@ -1,0 +1,82 @@
+:root {
+    --primary-color: rgb(87, 98, 163);
+    --secondary-color: rgb(255, 255, 255);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(97, 97, 224);
+    font-family: 'poppins', sans-serif;
+}
+
+h1,
+h3 {
+    margin-top: 30px;
+}
+
+img {
+    border-radius: 50%;
+
+}
+
+button {
+    background-color: var(--primary-color);
+    width: 60%;
+    border: white solid 2px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 40px;
+}
+
+input[type=submit] {
+    width: 50%;
+    height: px;
+    border: var(--primary-color) solid 2px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+.second button {
+    border: var(--primary-color) solid 2px;
+}
+
+.container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.page {
+    height: 75%;
+    width: 100%;
+    text-align: center;
+}
+
+.first {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.second {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
