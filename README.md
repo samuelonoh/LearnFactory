@@ -1,2 +1,1 @@
 # LearnFactory
-Tech Scholarship
