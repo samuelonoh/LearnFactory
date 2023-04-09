@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(87, 98, 163);
+    --primary-color: rgb(79, 79, 235);
     --secondary-color: rgb(255, 255, 255);
 }
 
@@ -16,15 +16,20 @@ body {
 }
 
 h1,
-h2,
-button.margin-top {
-    margin-top: 100px;
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
 }
 
-h3,
 h2,
 h1 {
-    margin-bottom: 70px;
+    margin-top: 80px;
+    margin-bottom: 30px
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-size: x-large;
 }
 
 img {
@@ -35,6 +40,53 @@ p {
     margin-top: 20px;
 }
 
+button {
+    margin-bottom: 50px;
+    margin-top: 80px;
+    width: 50%;
+    height: 7%;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+button.white-border {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+button.blue-border {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+section {
+    box-shadow: 5px 5px 5px #e9e3e3;
+    width: 70%;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 37px;
+    border-radius: 5px;
+}
+
+input {
+    width: 70%;
+    height: 30%;
+    border: 0;
+    margin-left: 15%;
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+input.border-radius {
+    border-radius: 40px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
 .container {
     width: 1880px;
     height: 100vh;
@@ -44,23 +96,20 @@ p {
 }
 
 .page {
-    width: 75vh;
-    padding: 0;
-    height: 75%;
+    width: 60vh;
+    height: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .blue {
     background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .white {
     background-color: var(--secondary-color);
-
-}
-
-.login {
-    box-shadow: 5px 5px 5px #e9e3e3;
+    color: var(--primary-color);
 }
