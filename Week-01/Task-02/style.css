@@ -1,0 +1,44 @@
+:root {
+    --primary-color: rgb(49, 49, 51);
+    --secondary-color: rgb(255, 255, 255);
+    --tertiary-color: rgb(151, 146, 146);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-color);
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 650px;
+    margin:15px ;
+    width: 1880px;
+    
+}
+
+header ul li {
+    color: rgb(255, 0, 0);
+    
+}
+
+ul li {
+    display: inline-block;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
