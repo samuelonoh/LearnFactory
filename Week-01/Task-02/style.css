@@ -18,7 +18,7 @@ body {
 header {
     display: flex;
     gap: 650px;
-    margin:15px ;
+    margin:25px ;
     width: 1880px;
     
 }
@@ -28,17 +28,38 @@ header ul li {
     
 }
 
-ul li {
-    display: inline-block;
+ul {
+    list-style-type: none;
 }
-
 .margin-top {
-    margin-top: 20px;
+    margin-top: 32px;
 }
 a {
     text-decoration: none;
     display: inline-block;
+    color: var(--primary-color);
 }
 
+nav ul{
+    display: flex;
+    gap: 60px;
+    margin: 25px;
+}
+main {
+    margin: 25px;
+}
+.container-01 {
+    display: flex;
+    gap: 40px;
+
+}
+
+.container-01 img {
+    border-radius: 15px;
+}
+
+.container-01 p {
+    line-height: 35px;
+}
 
 
