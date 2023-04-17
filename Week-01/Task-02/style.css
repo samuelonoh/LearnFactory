@@ -19,8 +19,7 @@ header {
     display: flex;
     gap: 650px;
     margin:25px ;
-    width: 1880px;
-    
+    max-width: 1880px;
 }
 
 header ul li {
