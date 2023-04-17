@@ -15,7 +15,7 @@ hr {
     color: var(--tertiary-color);
 }
 body{
-    height: max-content;
+    height: 100vh;
     width: 100%;
     color: var(--secondary-color);
 }
@@ -64,3 +64,38 @@ ul.border li {
 }
 
 /* section */
+.stories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+/* main */
+
+.hot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    position: relative;
+}
+
+ul.details li a img {
+    border-radius: 15px;
+}
+
+.details .absolute {
+    position: absolute;
+    right: 0;
+
+}
